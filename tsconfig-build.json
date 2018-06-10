@@ -38,7 +38,7 @@
         "skipTemplateCodegen": true,
         "annotateForClosureCompiler": true,
         "strictMetadataEmit": true,
-        "flatModuleOutFile": "angular-library-starter.js",
-        "flatModuleId": "angular-library-starter"
+        "flatModuleOutFile": "ionic-storage-decorator.js",
+        "flatModuleId": "ionic-storage-decorator"
     }
 }

@@ -1,16 +1,15 @@
 {
-    "name": "angular-library-starter",
-    "private": true,
-    "version": "0.0.1",
-    "description": "Build an Angular library compatible with AoT compilation and Tree shaking like an official package",
-    "main": "./bundles/angular-library-starter.umd.js",
-    "module": "./fesm5/angular-library-starter.js",
-    "es2015": "./fesm2015/angular-library-starter.js",
-    "esm5": "./esm5/angular-library-starter.js",
-    "esm2015": "./esm2015/angular-library-starter.js",
-    "fesm5": "./fesm5/angular-library-starter.js",
-    "fesm2015": "./fesm2015/angular-library-starter.js",
-    "typings": "./angular-library-starter.d.ts",
+    "name": "@engineerapart/ionic-storage-decorator",
+    "version": "0.1.0",
+    "description": "A decorator and service designed to make using Ionic Storage easy",
+    "main": "./bundles/ionic-storage-decorator.umd.js",
+    "module": "./fesm5/ionic-storage-decorator.js",
+    "es2015": "./fesm2015/ionic-storage-decorator.js",
+    "esm5": "./esm5/ionic-storage-decorator.js",
+    "esm2015": "./esm2015/ionic-storage-decorator.js",
+    "fesm5": "./fesm5/ionic-storage-decorator.js",
+    "fesm2015": "./fesm2015/ionic-storage-decorator.js",
+    "typings": "./ionic-storage-decorator.d.ts",
     "scripts": {
         "build": "node build.js",
         "test": "karma start",
@@ -24,12 +23,12 @@
     "author": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robisim74/angular-library-starter.git"
+        "url": "https://github.com/engineerapart/ionic-storage-decorator.git"
     },
     "bugs": {
-        "url": "https://github.com/robisim74/angular-library-starter/issues"
+        "url": "https://github.com/engineerapart/ionic-storage-decorator/issues"
     },
-    "homepage": "https://github.com/robisim74/angular-library-starter",
+    "homepage": "https://github.com/engineerapart/ionic-storage-decorator",
     "keywords": [
         "angular",
         "javascript",
@@ -37,11 +36,14 @@
     ],
     "license": "MIT",
     "dependencies": {
+        "@ionic/storage": "^2.1.3",
+        "lodash.isplainobject": "^4.0.6",
+        "ts-debug": "^1.2.0",
         "tslib": "^1.9.0"
     },
     "peerDependencies": {
-        "@angular/common": ">= 6.0.0",
-        "@angular/core": ">= 6.0.0"
+        "@angular/common": ">= 5.2 || >= 6.0.0",
+        "@angular/core": ">= 5.2 || >= 6.0.0"
     },
     "devDependencies": {
         "@angular/animations": "6.0.0",
@@ -55,9 +57,11 @@
         "@compodoc/compodoc": "1.1.2",
         "@types/jasmine": "2.8.7",
         "@types/node": "10.0.3",
+        "angular2-template-loader": "0.6.2",
         "chalk": "2.4.1",
         "codelyzer": "4.3.0",
         "core-js": "2.5.5",
+        "css-loader": "0.28.11",
         "istanbul-instrumenter-loader": "3.0.1",
         "jasmine-core": "3.1.0",
         "karma": "2.0.2",
@@ -68,26 +72,24 @@
         "karma-spec-reporter": "0.0.32",
         "karma-webpack": "4.0.0-beta.0",
         "node-sass": "4.9.0",
+        "raw-loader": "0.5.1",
         "reflect-metadata": "0.1.12",
         "rollup": "0.58.2",
         "rollup-plugin-license": "0.6.0",
         "rollup-plugin-node-resolve": "3.3.0",
         "rollup-plugin-sourcemaps": "0.4.2",
         "rxjs": "6.1.0",
+        "sass-loader": "7.0.1",
         "shelljs": "0.8.1",
         "source-map-loader": "0.2.3",
+        "to-string-loader": "1.1.5",
         "ts-loader": "4.2.0",
         "tslint": "5.10.0",
         "tslint-angular": "1.1.1",
         "typescript": "2.7.2",
         "uglify-js": "3.3.23",
         "webpack": "4.6.0",
-        "zone.js": "0.8.26",
-        "angular2-template-loader": "0.6.2",
-        "raw-loader": "0.5.1",
-        "css-loader": "0.28.11",
-        "sass-loader": "7.0.1",
-        "to-string-loader": "1.1.5"
+        "zone.js": "0.8.26"
     },
     "sideEffects": false
 }

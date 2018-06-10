@@ -1,6 +1,6 @@
 import { inject, TestBed } from '@angular/core/testing';
 
-import { SumService } from './../../angular-library-starter';
+import { SumService } from './../../src/ionic-storage-decorator';
 
 describe('SumService', () => {
 

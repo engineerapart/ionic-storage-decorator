@@ -1,11 +1,11 @@
-# angular-library-starter
-[![Build Status](https://travis-ci.org/robisim74/angular-library-starter.svg?branch=master)](https://travis-ci.org/robisim74/angular-library-starter)
+# ionic-storage-decorator
+[![Build Status](https://travis-ci.org/robisim74/ionic-storage-decorator.svg?branch=master)](https://travis-ci.org/robisim74/ionic-storage-decorator)
 >Build an Angular library compatible with AoT compilation &amp; Tree shaking like an official package.
 
-This starter allows you to create a library for **Angular v6** apps written in _TypeScript_, _ES6_ or _ES5_. 
+This starter allows you to create a library for **Angular v6** apps written in _TypeScript_, _ES6_ or _ES5_.
 The project is based on the official _Angular_ packages.
 
-Get the [Changelog](https://github.com/robisim74/angular-library-starter/blob/master/CHANGELOG.md).
+Get the [Changelog](https://github.com/robisim74/ionic-storage-decorator/blob/master/CHANGELOG.md).
 
 ## Contents
 * [1 Project structure](#1)
@@ -38,7 +38,7 @@ Get the [Changelog](https://github.com/robisim74/angular-library-starter/blob/ma
 ## <a name="2"></a>2 Customizing
 1. Update [Node & npm](https://docs.npmjs.com/getting-started/installing-node).
 
-2. Rename `angular-library-starter` and `angularLibraryStarter` everywhere to `my-library` and `myLibrary`.
+2. Rename `ionic-storage-decorator` and `angularLibraryStarter` everywhere to `my-library` and `myLibrary`.
 
 3. Customize the `license-banner.txt` file with your library license.
 
@@ -52,8 +52,8 @@ Get the [Changelog](https://github.com/robisim74/angular-library-starter/blob/ma
 
 4. Create your classes in `src` folder, and export public classes in `my-library.ts`.
 
-5. You can create only one _module_ for the whole library: 
-I suggest you create different _modules_ for different functions, 
+5. You can create only one _module_ for the whole library:
+I suggest you create different _modules_ for different functions,
 so that the host app can only import the modules it uses, and optimize its _Tree shaking_.
 
 6. Update in `rollup.config.js` file `globals` external dependencies with those that actually you use to build the _umd_ bundle.
@@ -61,9 +61,9 @@ so that the host app can only import the modules it uses, and optimize its _Tree
 7. Create unit & integration tests in `tests` folder, or unit tests next to the things they test in `src` folder, always using `.spec.ts` extension.
 
 ## <a name="3"></a>3 Testing
-The following command runs unit & integration tests that are in the `tests` folder (you can change the folder in `spec.bundle.js` file): 
+The following command runs unit & integration tests that are in the `tests` folder (you can change the folder in `spec.bundle.js` file):
 ```Shell
-npm test 
+npm test
 ```
 or in watch mode:
 ```Shell
@@ -129,13 +129,13 @@ npm run publish:lib
 To generate the documentation, this starter uses [compodoc](https://github.com/compodoc/compodoc):
 ```Shell
 npm run compodoc
-npm run compodoc:serve 
+npm run compodoc:serve
 ```
 
 ## <a name="7"></a>7 Using the library
 ### Installing
 ```Shell
-npm install my-library --save 
+npm install my-library --save
 ```
 ### Loading
 #### Using SystemJS configuration
@@ -163,9 +163,9 @@ The library is compatible with _AoT compilation_.
 ## <a name="8"></a>8 What it is important to know
 1. `package.json`
 
-    * `"main": "./bundles/angular-library-starter.umd.js"` legacy module format 
-    * `"module": "./esm5/angular-library-starter.js"` flat _ES_ module, for using module bundlers such as _Rollup_ or _webpack_
-    * `"es2015": "./esm2015/angular-library-starter.js"` _ES2015_ flat _ESM_ format
+    * `"main": "./bundles/ionic-storage-decorator.umd.js"` legacy module format
+    * `"module": "./esm5/ionic-storage-decorator.js"` flat _ES_ module, for using module bundlers such as _Rollup_ or _webpack_
+    * `"es2015": "./esm2015/ionic-storage-decorator.js"` _ES2015_ flat _ESM_ format
     * `"typings"` declaration files for _TypeScript_ compiler
     * `"peerDependencies"` the packages and their versions required by the library when it will be installed
 
@@ -213,13 +213,13 @@ Now _ngc_ compiler supports inlining of templates & styles. Moreover, this start
 
 ## Previous versions
 - **Angular v5**
-    - [Branch](https://github.com/robisim74/angular-library-starter/tree/angular_v5)
+    - [Branch](https://github.com/robisim74/ionic-storage-decorator/tree/angular_v5)
 
 - **Angular v4**
-    - [Branch](https://github.com/robisim74/angular-library-starter/tree/angular_v4)
+    - [Branch](https://github.com/robisim74/ionic-storage-decorator/tree/angular_v4)
 
 - **Angular v2**
-    - [Branch](https://github.com/robisim74/angular-library-starter/tree/angular_v2)
+    - [Branch](https://github.com/robisim74/ionic-storage-decorator/tree/angular_v2)
 
 ## License
 MIT
